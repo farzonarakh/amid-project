@@ -1,0 +1,190 @@
+.reviews-page {
+  align-items: center;
+  margin-top: 70px;
+  padding: 0px 170px 0px 170px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  position: relative;
+}
+
+.reviews-page .heading-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reviews-page .heading {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(255, 97, 7, 1);
+  letter-spacing: 3px;
+  border-radius: 4px;
+  padding: 8px 16px;
+  background-color:rgba(255, 255, 255, 1);
+  border: 1px solid rgba(242, 250, 249, 1);
+  width: 94px;
+  text-align: center;
+}
+
+.reviews-page .subheading-bold {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 80px;
+  text-align: center;
+  letter-spacing: 0;
+  width: 670;
+}
+
+.reviews-page .subheading-light {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(70, 70, 70, 1);
+  line-height: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 662px;
+}
+
+.reviews-page .arrows {
+  position: absolute;
+  top: 260px;
+  right: 160px;
+  cursor: pointer;
+}
+
+.reviews-page .arrow {
+  margin: 12px;
+  width: 14px;
+}
+
+.reviews-page .blog-container {
+  display: flex;
+  gap: 40px;
+}
+
+.reviews-page .blog {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  position: relative;
+  padding-top: 18px;
+}
+
+.reviews-page .blog:hover {
+  box-shadow: 20px 24px 114px 0px rgba(245, 245, 245, 1);
+  transition: box-shadow 0.3s ease;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.reviews-page .blog:hover .learn-more{
+  color: white;
+  background-color: rgba(255, 130, 59, 1);
+  cursor: pointer;
+  padding: 18px 20px 18px 39px;
+  border-radius: 32px;
+  font-weight: 700;
+  font-size: 18px;
+  width: 130px;
+}
+
+.reviews-page .blog .learn-more:hover{
+  background-color: rgba(255, 130, 59, 0.8);
+}
+
+.reviews-page .blog .learn-more:active {
+  opacity: 0.8;
+}
+
+
+/* Arrow container */
+.reviews-page .blog:hover .arrow-right {
+  display: inline-block;
+  position: relative;
+  width: 14px;   /* length of the arrow */
+  height: 2px;   /* thickness */
+  background: white;  /* line color */
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+
+/* Arrow head */
+.reviews-page .blog:hover .arrow-right::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 6px;
+  height: 6px;
+  border-top: 2px solid white;
+  border-right: 2px solid white;
+  transform: translateY(-50%) rotate(45deg)
+}
+
+.reviews-page .arrow-right {
+  display: inline-block;
+  position: relative;
+  width: 14px;   /* length of the arrow */
+  height: 2px;   /* thickness */
+  background: rgba(18, 79, 72, 1);  /* line color */
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+
+.reviews-page .arrow-right::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 6px;
+  height: 6px;
+  border-top: 2px solid rgba(18, 79, 72, 1);
+  border-right: 2px solid rgba(18, 79, 72, 1);
+  transform: translateY(-50%) rotate(45deg);
+}
+
+
+.reviews-page .blog-heading {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0%;
+}
+
+.reviews-page .blog-subheading {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  color: rgba(70, 70, 70, 1);
+}
+
+.reviews-page .blog-date {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  background-color: rgba(18, 79, 72, 1);
+  border-radius: 10px;
+  color: rgba(255, 255, 255, 1);
+  width: 42px;
+  height: 60px;
+  padding: 5px 15px 5px 15px;
+}
+
+.reviews-page .learn-more {
+  font-size: 18px;
+  font-weight: 700;
+  color:rgba(18, 79, 72, 1);
+  letter-spacing: 0.05px;
+  margin-right: 10px;
+  align-items: center;
+  width: 150px;
+}

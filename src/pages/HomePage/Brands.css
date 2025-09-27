@@ -1,0 +1,72 @@
+.brands-section {
+  align-items: center;
+  margin-top: 90px;
+  padding: 0px 170px 80px 170px;
+}
+
+.brands-section .brands-logos {
+  display: grid;
+  align-items: center;
+  width: 1110px;
+  height: 235px;
+  grid-template-rows: 100px 100px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  justify-items: center;
+  align-items: center;
+}
+
+.brands-section .logo {
+  background-color: rgba(241, 250, 249, 1);
+  width: 250px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.brands-section .netflix-logo {
+  width:  190px;
+  height: auto;
+  margin: 10px 30px;
+}
+
+.brands-section .forbes-logo {
+  width:  130px;
+  height: auto;
+  margin: 22px 60px;
+}
+
+.brands-section .ite-logo {
+  width:  150px;
+  height: auto;
+  margin: 12px 50px;
+}
+
+.brands-section .fedex-logo {
+  width:  160px;
+  height: auto;
+  margin: 20px 50px;
+}
+
+.brands-section .penguins-logo {
+  width:  130px;
+  height: auto;
+  margin: 22px 60px;
+}
+
+.brands-section .audiomack-logo {
+  width:  120px;
+  height: auto;
+  margin: 15px 70px;
+}
+
+.brands-section .ellipse-logo {
+  width:  60px;
+  height: auto;
+  margin: 20px 92px;
+}
+
+.brands-section .gotomeeting-logo {
+  width:  210px;
+  height: auto;
+  margin: 22px 20px;
+}

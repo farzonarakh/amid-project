@@ -1,0 +1,147 @@
+.footer {
+  margin-top: 140px;
+  background-color: rgba(233, 251, 249, 1);
+  height: 500px;
+  padding: 70px 170px 70px 170px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.footer .heading-bold {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
+  width: 637px;
+  
+}
+
+.footer .subscribe-row {
+  display: flex;
+  margin-top: 70px;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.footer .one-click {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 18px;
+  color: rgba(255, 130, 59, 1);
+}
+
+.footer .subscribe-button {
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 5%;
+  color: rgba(255, 255, 255, 1);
+  padding: 18px 39px;
+  border: none;
+  background-color: rgba(255, 130, 59, 1);
+  border-radius: 32px;
+}
+
+.footer .subscribe-button:hover {
+  background-color: rgba(255, 130, 59, 0.8);
+}
+
+.footer .subscribe-button:active {
+  opacity: 0.footer .8;
+}
+
+.footer .arrow-right {
+  display: inline-block;
+  position: relative;
+  width: 14px;   /* length of the arrow */
+  height: 2px;   /* thickness */
+  background: rgba(255, 255, 255, 1);  /* line color */
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+
+.footer .arrow-right::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 6px;
+  height: 6px;
+  border-top: 2px solid rgba(255, 255, 255, 1);
+  border-right: 2px solid rgba(255, 255, 255, 1);
+  transform: translateY(-50%) rotate(45deg);
+}
+
+.footer .main-row {
+  display: flex;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.footer .logo-container {
+  display: flex;
+  flex-direction: column;
+  width: 167px;
+  height: 64px;
+}
+
+.footer .company-type {
+  font-weight: 400;
+  font-size: 12px;
+  color: rgba(255, 130, 59, 1);
+}
+
+.footer .info-options {
+  display: flex;
+  gap: 70px;
+  margin-left: 180px;
+  margin-right: 180px;
+  color: rgba(18, 79, 72, 1);
+  text-align: center;
+}
+
+.footer .terms {
+  color: rgba(255, 130, 59, 1);
+}
+
+.footer .contact-details {
+  display: flex;
+  flex-direction: column;
+  color: rgba(18, 79, 72, 1);
+  line-height: 36px;
+  width: 193px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.footer .bottom-row {
+  display: flex;
+  margin-top: 100px;
+  height: 60px;
+  background-color: rgba(18, 79, 72, 1);
+  bottom: 0;
+  position: absolute;
+  right: 0;
+  left: 0;
+  justify-content: space-between;
+}
+
+.footer .footer-copyright{
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  padding: 14px 0px 14px 165px;
+}
+
+.footer .profiles {
+  display: flex;
+  height: 18px;
+  gap: 30px;
+  padding: 14px 165px;
+}

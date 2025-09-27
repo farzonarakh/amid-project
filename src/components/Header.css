@@ -1,0 +1,115 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 220px 40px 220px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  z-index: 5;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+@media (max-width: 1000px) {
+  .header {
+    padding: 15px;
+  }
+}
+
+.header-middle-section {
+  display: flex;
+  gap: 70px;
+}
+
+.header-link {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration-line: underline 30px;
+  color: rgba(70, 70, 70, 1);
+  cursor: pointer;
+
+}
+
+.header a {
+  text-decoration: none;
+}
+
+.header a.active .header-link{
+  border-bottom: 2px solid rgba(255, 119, 21, 1);
+  font-weight: 500;
+  color: #0B041B;
+}
+
+.header a.active-button {
+  transform: translatey(3px);
+  box-shadow: none;
+  animation: ani9 0.4s ease-in-out infinite alternate;
+}
+
+.header .logo-img {
+  width: 118px;
+  height: auto;
+  margin-right: 50px;
+}
+
+.header .login-button {
+  background-color: rgba(18, 79, 72, 1);
+  border: none;
+  border-radius: 32px;
+  padding: 18px 39px;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  transition: background-color 0.15s;
+  cursor: pointer;
+  width: 127px;
+  margin-left: 50px;
+}
+
+/* buttons hover */
+.header .login-button:hover {
+    transform: translatey(3px);
+    box-shadow: none;
+}
+
+/* buttons hover Animation */
+.header .login-button:hover {
+    animation: ani9 0.4s ease-in-out infinite alternate;
+}
+
+@keyframes ani9 {
+    0% {
+        transform: translateY(3px);
+    }
+    100% {
+        transform: translateY(5px);
+    }
+}
+
+@media (max-width: 800px) {
+  .header .login-button {
+    padding: 18px 0px 18px 0px;
+    font-weight: 500;
+    margin: 5px;
+  }  
+
+  .header .logo-img {
+    width: 90px;
+    margin: 5px;
+  }
+
+  .header-middle-section {
+    gap: 10px;
+  }
+}
+
+
+
+
+
+.login-button:active {
+  opacity: 0.8;
+}
